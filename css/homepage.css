@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&display=swap');
+
+/*test fonts wanneer font verwijdered wordt groote van submit button in contacthtml aanpassen*/
+
+body {
+    background-color: rgba(52, 58, 64, 0.0);
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+.jumbotron {
+    background-image: url("../img/Bon voyage.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-bottom: 37em;
+    border-radius: 0;
+    margin-top: 2rem;
+}
+
+.jumbotronMiddle {
+    background-image: url("../img/MiddleImage.jpg");
+    margin-top: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    border-radius: 0;
+}
+
+.headerMiddle {
+    color: white;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.headerTextMiddle {
+    font-size: 1.8em;
+}
+
+.navbar {
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.7);
+}
+
+.navbarBG {
+    background-color: rgb(33, 37, 41);
+    /*background-color: #0C1016;*/
+}
+
+.fixed-top {
+    z-index: 1000;
+}
+
+.featured {
+    background-color: #1d242f;
+}
+
+.btn-outline-success {
+    color: white;
+}
+
+.btn-outline-success:hover {
+    background-color: cornflowerblue;
+}
+
+.headerK {
+    font-size: 6vw;
+    color: #ffffff;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.47);
+}
+
+.subtext {
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.47);
+}
+
+.btn-primary {
+    background-color: white;
+    color: cornflowerblue;
+    border: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+}
+
+.btn-primary:hover {
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.btnfooter {
+    border: none;
+    color: white;
+    background-color: #1d242f;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btnfooter:hover {
+    border: none;
+    color: white;
+    background-color: rgba(29, 36, 47, 0.9);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.about {
+    background-color: rgb(33, 37, 41);
+}
+
+.btn-info {
+    background-color: cornflowerblue;
+    border: cornflowerblue;
+    padding: 0.6rem;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+
+}
+
+.btn-info:hover {
+    background-color: royalblue;
+    border: royalblue;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-3px);
+}
+
+.btnLink {
+    text-decoration: none;
+    color: white;
+}
+
+.btnLink:link {
+    text-decoration: none;
+    color: white;
+}
+
+.btnLink:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.overwatchCaption {
+    color: rgb(33, 37, 41);
+
+}
+
+.infoButton {
+    position: absolute;
+    margin-top: 34rem;
+    left: 1rem;
+    cursor: pointer;
+    color: rgba(29, 36, 47, 0.7);
+    background-color: transparent;
+    border: none;
+}
+
+.infoButton:hover {
+    color: rgb(33, 37, 41);
+}
+
+.modal-content, .modal-header {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.close {
+    color: white;
+}
+
+.close:hover {
+    color: white;
+}
+
+.close:hover {
+    color: rgba(29, 36, 47, 0.5);
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -350px;
+    visibility: hidden;
+}
+
+a.anchor2 {
+    display: block;
+    position: relative;
+    top: -230px;
+    visibility: hidden;
+}
+
+a.anchor3 {
+    display: block;
+    position: relative;
+    top: -150px;
+    visibility: hidden;
+}
+
+a.anchor4 {
+    display: block;
+    position: relative;
+    top: -150px;
+    visibility: hidden;
+}
+
+a.anchor5 {
+    display: block;
+    position: relative;
+    top: -125px;
+    visibility: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.btn-link, .btn-link:hover, .btn-link:focus {
+    text-decoration: none;
+    color: black;
+    font-size: 1.05rem;
+}
+
+.collapsing, .collapse, .collapsed {
+    transition: height 0.45s;
+}
+
+.firstHalf {
+    background-color: #2B2D42;
+}
+
+.middle {
+    border: none;
+    margin-bottom: 0.5em;
+    box-shadow: 6px 4px 8px 0px rgba(0, 0, 0, 0.41);
+}
+
+.mxRed {
+    color: #B51C0E;
+}
+
+.mxBrown {
+    color: #7C4237;
+}
+
+.mxBlue {
+    color: #56C7FF;
+}
+
+.mutedCherry {
+    font-size: 0.8em;
+}
+
+.switchIndicator li {
+    box-shadow: 6px 4px 8px 0px rgba(0, 0, 0, 0.41);
+}
+
+.footer {
+    background-color: #0C1016;
+}
+
+.leadFooter {
+    font-size: 0.90em;
+}
+
+.mail:active, .mail {
+    text-decoration: none;
+    color: white;
+}
+
+.mail:hover {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.smallText {
+    font-size: 0.93em;
+}
+
+.footerHeader {
+    color: #C5E5F4;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid white;
+    width: 100%;
+}
+
+.fa-phone-volume, .fa-envelope {
+    color: #C5E5F4;
+}
+
+.facebookLink {
+    color: #3b5998;
+}
+
+.facebookLink:hover {
+    color: rgba(59, 89, 152, 0.8);
+}
+
+.twitterLink {
+    color: #00acee;
+}
+
+.twitterLink:hover {
+    color: rgba(0, 172, 238, 0.8);
+}
+
+.linkedinLink {
+    color: #0e76a8;
+}
+
+.linkedinLink:hover {
+    color: rgba(14, 118, 168, 0.8);
+}
+
+.googleplusLink {
+    color: #db4a39;
+}
+
+.googleplusLink:hover {
+    color: rgba(219, 74, 57, 0.8);
+}
+
+.copyright {
+    font-size: 0.7em;
+    color: white;
+}
+
+.btn-success, .btn-success:hover {
+    background-color: white;
+    border: white;
+    cursor: default !important;
+}
+
+.btnSub {
+    font-size: 0.90em;
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: bold;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 0.95em;
+}
+
+.btnSub:hover {
+    background-color: royalblue;
+}
+
+.mail2 {
+    color: black;
+}
+
+.linkText {
+    color: white;
+    font-size: 0.95em;
+}
+
+.linkHref:hover {
+    text-decoration: none;
+}
+
+.btnContact {
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease 0s;
+    padding: 0.62em;
+    vertical-align: bottom;
+    margin-bottom: 0.23em;
+}
+
+.btnContact:hover {
+    background-color: royalblue;
+    color: white;
+    border: none;
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.facebookLinkC {
+    color: #3b5998;
+    transition: all 0.3s ease 0s;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+}
+
+.facebookLinkC:hover {
+    color: rgba(59, 89, 152, 0.8);
+    transform: translateY(-3px);
+
+}
+
+.twitterLinkC {
+    color: #00acee;
+    transition: all 0.3s ease 0s;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+}
+
+.twitterLinkC:hover {
+    color: rgba(0, 172, 238, 0.8);
+    transform: translateY(-3px);
+
+}
+
+.linkedinLinkC {
+    color: #0e76a8;
+    transition: all 0.3s ease 0s;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+}
+
+.linkedinLinkC:hover {
+    color: rgba(14, 118, 168, 0.8);
+    transform: translateY(-3px);
+
+}
+
+.googleplusLinkC {
+    color: #db4a39;
+    transition: all 0.3s ease 0s;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+}
+
+.googleplusLinkC:hover {
+    color: rgba(219, 74, 57, 0.8);
+    transform: translateY(-3px);
+
+}
+
+.infoButtonC {
+    position: absolute;
+    margin-top: 0.2rem;
+    right: 0.4rem;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+    border: none;
+}
+
+.infoButtonC:hover {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+a.anchorCF {
+    display: block;
+    position: relative;
+    top: -125px;
+    visibility: hidden;
+}
+
+/*Solution for whitespace at bottom of google map!*/
+.googleMap {
+    line-height: 0;
+}
+

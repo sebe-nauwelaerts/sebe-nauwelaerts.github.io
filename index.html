@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyKeyboards.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/homepage.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.11.1/js/all.js"></script>
+</head>
+<body>
+<div class="container-fluid p-0">
+    <nav class="navbar navbar-expand-lg navbar-dark navbarBG fixed-top">
+        <a class="navbar-brand" href="#">Mykeyboards</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-md-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#featured">Featured</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contributers">Contributers</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        Products
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#switches">Switches</a>
+                        <a class="dropdown-item" href="#keyboards">Keyboards</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success border-white my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="jumbotron jumbotron mb-0">
+        <a class="anchor" id="home"></a>
+        <div class="container-fluid">
+            <h1 class="headerK">Mykeyboards</h1>
+
+            <p class="lead offset-md-2 text-white subtext">Welcome to our page, hope you enjoy your stay!</p>
+
+            <p class="lead offset-md-4">
+                <a class="btn btn-primary btn-lg" href="#keyboards" role="button">Our keyboards</a>
+            </p>
+            <button type="button" class="infoButton" data-toggle="tooltip" data-placement="right"
+                    title="Video">
+                <i data-toggle="modal" data-target="#mijnModal" class="fas fa-camera-retro fa-2x"></i>
+            </button>
+        </div>
+    </div>
+    <div class="row m-0">
+        <a class="anchor" id="about"></a>
+        <div class="col-md-7 p-5 text-center about ">
+            <h1 class="text-white">About us</h1>
+            <h3 class="lead text-white">Mechanical keyboard distributor</h3>
+            <p class="mx-auto aboutText text-white">Our site provides information about the latest keyboads, mice
+                and various
+                other desk
+                accessories. We always try to provide the best service we possibly can to our customers, along with a
+                30-day return policy. We started this as a summary and a collection of keyboards, mice and deskchairs
+                but as time went on we added more and more products to our list.</p>
+            <p class="text-center text-white">If you wish to contact us please click the link below!</p>
+            <div class="btn btn-info" role="button"><a class="btnLink" href="contact.html#contactForm">Contact us</a>
+            </div>
+        </div>
+        <div class="col-md-5 p-0 m-0 slide">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3200">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="img/slide1.jpg" alt="First slide">
+                        <div class="carousel-caption  d-md-block">
+                            Cyberpunk 2077 style
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/slide2.jpg" alt="Second slide">
+                        <div class="carousel-caption  d-md-block">
+                            Minecraft style
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/slide3.jpg" alt="Third slide">
+                        <div class="carousel-caption  d-md-block">
+                            Fortnite style
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/slide4.jpg" alt="Fourth slide">
+                        <div class="carousel-caption  d-md-block overwatchCaption">
+                            Overwatch style
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="fas fa-caret-square-left fa-2x" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="fas fa-caret-square-right fa-2x" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row m-0">
+        <a class="anchor3" id="switches"></a>
+        <div class="col-md-5 p-5 firstHalf">
+            <div id="accordion">
+                <div class="card middle">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0 text-center">
+                            <button class="btn btn-link p-1" data-toggle="collapse" data-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                Cherry MX Red Switch
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                         data-parent="#accordion">
+                        <div class="card-body bgEdit">
+                            <div class="col-md-3">
+                                <img class="img-fluid" src="img/cherryMXred.png" alt="cherryMXred">
+                            </div>
+                            <p class="text-muted text-uppercase m-0 pl-1 mutedCherry">cherry mx red</p>
+                            <h4 class="text-uppercase pl-1"> effortless and fast</h4>
+                            <ul class="fa-ul mb-0">
+                                <li class="list-unstyled mb-2"><span class="fa-li mxRed"><i
+                                        class="fas fa-grip-lines-vertical"></i></span>Linear switching characteristics
+                                </li>
+                                <li class="list-unstyled mb-2"><span class="fa-li mxRed"><i
+                                        class="fas fa-weight-hanging"></i></span>45
+                                    <span data-toggle="tooltip" title="centinewtons">cN</span> operating force
+                                </li>
+                                <li class="list-unstyled mb-2"><span class="fa-li mxRed"><i
+                                        class="fas fa-long-arrow-alt-down"></i></span>2.0 mm pre travel
+                                </li>
+                                <li class="list-unstyled"><span class="fa-li mxRed"><i
+                                        class="fas fa-ruler-horizontal"></i></span>4.0 mm total travel
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card middle">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0 text-center">
+                            <button class="btn btn-link p-1 collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo">
+                                Cherry MX Brown Switch
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body bgEdit">
+                            <div class="col-md-3">
+                                <img class="img-fluid" src="img/cherryMXbrown.png" alt="cherryMXbrown">
+                            </div>
+                            <p class="text-muted text-uppercase m-0 pl-1 mutedCherry">cherry mx brown</p>
+                            <h4 class="text-uppercase pl-1">tactile and quiet</h4>
+                            <ul class="fa-ul mb-0">
+                                <li class="list-unstyled mb-2"><span class="fa-li mxBrown"><i
+                                        class="fas fa-grip-lines-vertical"></i></span>Tactile switching characteristics
+                                </li>
+                                <li class="list-unstyled mb-2"><span class="fa-li mxBrown"><i
+                                        class="fas fa-weight-hanging"></i></span>55
+                                    <span data-toggle="tooltip" title="centinewtons">cN</span> operating force
+                                </li>
+                                <li class="list-unstyled mb-2"><span class="fa-li mxBrown"><i
+                                        class="fas fa-long-arrow-alt-down"></i></span>2.0 mm pre travel
+                                </li>
+                                <li class="list-unstyled"><span class="fa-li mxBrown"><i
+                                        class="fas fa-ruler-horizontal"></i></span>4.0 mm total travel
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card middle">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0 text-center">
+                            <button class="btn btn-link p-1 collapsed" data-toggle="collapse"
+                                    data-target="#collapseThree"
+                                    aria-expanded="false" aria-controls="collapseThree">
+                                Cherry MX Blue Switch
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                         data-parent="#accordion">
+                        <div class="card-body bgEdit">
+                            <div class="col-md-3">
+                                <img class="img-fluid" src="img/cherryMXblue.png" alt="cherryMXblue">
+                            </div>
+                            <p class="text-muted text-uppercase m-0 pl-1 mutedCherry">cherry mx blue</p>
+                            <h4 class="text-uppercase pl-1">tactile and clicky</h4>
+                            <ul class="fa-ul mb-0">
+                                <li class="list-unstyled mb-2"><span class="fa-li mxBlue"><i
+                                        class="fas fa-grip-lines-vertical"></i></span>Tactile and audible switching
+                                    characteristics
+
+                                </li>
+                                <li class="list-unstyled mb-2"><span class="fa-li mxBlue"><i
+                                        class="fas fa-weight-hanging"></i></span>60
+                                    <span data-toggle="tooltip" title="centinewtons">cN</span> operating force
+                                </li>
+                                <li class="list-unstyled mb-2"><span class="fa-li mxBlue"><i
+                                        class="fas fa-long-arrow-alt-down"></i></span>2.2 mm pre travel
+                                </li>
+                                <li class="list-unstyled"><span class="fa-li mxBlue"><i
+                                        class="fas fa-ruler-horizontal"></i></span>4.0 mm total travel
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-7 p-0 m-0 slide">
+            <div id="carouselIndicatorsSwitches" class="carousel slide" data-ride="carousel" data-interval="3600">
+                <ol class="carousel-indicators switchIndicator">
+                    <li data-target="#carouselIndicatorsSwitches" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselIndicatorsSwitches" data-slide-to="1"></li>
+                    <li data-target="#carouselIndicatorsSwitches" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="img/bigkeyboardRed.jpg" alt="First switch">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/bigkeyboardBrown.jpg" alt="Second switch">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/bigkeyboard.jpg" alt="Third switch">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row m-0">
+        <a class="anchor2" id="featured"></a>
+        <div class="col-md-12 p-5 featured">
+            <h2 class="text-white">Featured products</h2>
+            <h5 class="text-muted">New in stock!</h5>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card-deck">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img src="img/keyboard1.png" alt="Ducky One 2 Ocean Star"
+                                     style="width:100%">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Akko x Ducky One 2 Ocean Star</h5>
+                                <p class="card-text extraInfo">108 key cherry mx switch PBT keycap mechanical
+                                    keyboard</p>
+                                <p class="card-text price">€105,99</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="btn btnfooter">Add to Cart</div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img src="img/keyboard2.png" alt="Ducky One 2 Horizon TKL"
+                                     style="width:100%">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Ducky One 2 Horizon TKL</h5>
+                                <p class="card-text extraInfo">88 key cherry mx switch PBT keycap mechanical
+                                    keyboard</p>
+                                <p class="card-text price">€99,00</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="btn btnfooter">Add to Cart</div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img src="img/keyboard3.png" alt="Ducky One 2 TKL"
+                                     style="width:100%">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Ducky One 2 TKL</h5>
+                                <p class="card-text extraInfo">88 key cherry mx switch PBT keycap mechanical
+                                    keyboard</p>
+                                <p class="card-text price">€99,00</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="btn btnfooter">Add to Cart</div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img src="img/keyboard4.png" alt="CM Storm QuickFire TK"
+                                     style="width:100%">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">CM Storm QuickFire TK</h5>
+                                <p class="card-text extraInfo">94 key cherry mx switch PBT keycap mechanical
+                                    keyboard</p>
+                                <p class="card-text price">€103,21</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="btn btnfooter">Add to Cart</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="anchor4" id="keyboards"></a>
+            <div class="row mt-md-4">
+                <div class="col-md-12">
+                    <div class="card-deck">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img src="img/keyboard5.png" alt="Ducky MIYA sea melody 65%"
+                                     style="width:100%">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Ducky MIYA Pro Sea Melody</h5>
+                                <p class="card-text extraInfo">65% Dye sub PBT mechanical keyboard cherry mx
+                                    switch</p>
+                                <p class="card-text price">€110,00</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="btn btnfooter">Add to Cart</div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img src="img/keyboard6.png" alt="Ducky MIYA panda"
+                                     style="width:100%">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Ducky MIYA Pro Panda</h5>
+                                <p class="card-text extraInfo">65% Dye sub PBT mechanical keyboard cherry mx
+                                    switch</p>
+                                <p class="card-text price">€149,90</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="btn btnfooter">Add to Cart</div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img src="img/keyboard7.png" alt="Redragon K552-RGB"
+                                     style="width:100%">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Redragon K552-RGB</h5>
+                                <p class="card-text extraInfo">87 key cherry mx switch PBT keycap mechanical
+                                    keyboard</p>
+                                <p class="card-text price">€44,99</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="btn btnfooter">Add to Cart</div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img src="img/keyboard8.png" alt="HyperX Alloy FPS Pro"
+                                     style="width:100%">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">HyperX Alloy FPS Pro</h5>
+                                <p class="card-text extraInfo">Key cherry mx switch PBT keycap TKL
+                                    mechanical
+                                    keyboard</p>
+                                <p class="card-text price">€109,99</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="btn btnfooter">Add to Cart</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-md-4">
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-img-top">
+                            <img src="img/keyboard9.png" alt="Anne Pro 2"
+                                 style="width:100%">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Anne Pro 2</h5>
+                            <p class="card-text extraInfo">60% key gateron switch PBT keycap mechanical
+                                keyboard</p>
+                            <p class="card-text price">€85,00</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="btn btnfooter">Add to Cart</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron jumbotronMiddle mb-0">
+        <a class="anchor5" id="contributers"></a>
+        <div class="container-fluid mx-auto">
+            <h1 class="headerMiddle text-center mb-5">Thank you for visiting our site!</h1>
+            <h3 class="text-center headerTextMiddle text-white">Images from @DuckyChannel on Twitter</h3>
+            <h3 class="text-center headerTextMiddle text-white">Videos from @DuckyChannel on Youtube</h3>
+            <h3 class="text-center headerTextMiddle text-white">Using CandyKeys & DuckyChannel websites as
+                inspiration</h3>
+            <h3 class="text-center headerTextMiddle text-white">Icons from FontAwesome</h3>
+        </div>
+    </div>
+    <div class="row p-5 m-0 footer">
+        <div class="col-md-3">
+            <div class="row pb-3">
+                <div class="col-md ">
+                    <h4 class="text-white">Mykeyboards</h4>
+                    <p class="leadFooter text-muted">switch up your setup</p>
+                </div>
+            </div>
+            <div class="row pb-3">
+                <div class="col-md">
+                    <h4 class="footerHeader">About us</h4>
+                    <p class="smallText text-white">We want to help people step into the world of custom keyboards.</p>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-md">
+                    <h5 class="footerHeader">Contact us</h5>
+                    <ul class="fa-ul ml-4 mb-0">
+                        <li class="list-unstyled text-white mb-2"><span class="fa-li"><i
+                                class="fas fa-phone-volume"></i>
+                        </span>
+                            <p class="smallText">+32-475-5551-17</p>
+                        </li>
+                        <li class="list-unstyled text-white mb-2"><span class="fa-li"><i
+                                class="fas fa-envelope"></i></i>
+                        </span><a class="mail" href="">r0799920@student.thomasmore.be</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <h4 class="footerHeader">Information</h4>
+            <a class="linkHref" href=""><h6 class="linkText">About Us</h6></a>
+            <a class="linkHref" href=""><h6 class="linkText">More Info</h6></a>
+        </div>
+        <div class="col-md-3">
+            <h4 class="footerHeader">Links</h4>
+            <a class="linkHref" href=""><h6 class="linkText">Services</h6></a>
+            <a class="linkHref" href=""><h6 class="linkText">Support</h6></a>
+            <a class="linkHref" href=""><h6 class="linkText">Terms & Condition</h6></a>
+            <a class="linkHref" href=""><h6 class="linkText">Privacy policy</h6></a>
+        </div>
+        <div class="col-md-3 my-4">
+            <h6 class="text-white mb-md-4">Recieve our newsletter</h6>
+            <form class="col-md-9 p-0">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-success" type="button"><i
+                                class="fas fa-envelope mail2"></i></button>
+                    </div>
+                    <input type="text" class="form-control emailForm" placeholder="Enter your Email" aria-label=""
+                           aria-describedby="basic-addon1">
+                </div>
+                <button type="submit" class="btn pr-4 pl-4 btnSub">Subscribe</button>
+            </form>
+        </div>
+        <hr class="mt-5">
+        <div class="mx-auto">
+            <a class="facebookLink" href=""><i class="fab fa-facebook-square fa-3x"></i></a>
+            <a class="googleplusLink" href=""><i class="fab fa-google-plus-square fa-3x"></i></a>
+            <a class="twitterLink" href=""><i class="fab fa-twitter-square fa-3x"></i></a>
+            <a class="linkedinLink" href=""><i class="fab fa-linkedin fa-3x"></i></a>
+            <p class="copyright mb-0">2020 © company.Ltd. All Right</p>
+            <p class="copyright">reserved</p>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="mijnModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <iframe width="100%" height="538" src="https://www.youtube.com/embed/xLCXH1KAG-Y" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
+</html>

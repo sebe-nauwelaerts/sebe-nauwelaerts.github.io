@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyKeyboards.com/contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/homepage.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+</head>
+<body>
+<div class="container-fluid p-0">
+    <nav class="navbar navbar-expand-lg navbar-dark navbarBG fixed-top">
+        <a class="navbar-brand" href="index.html">Mykeyboards</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-md-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#featured">Featured</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contributers">Contributers</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        Products
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#switches">Switches</a>
+                        <a class="dropdown-item" href="#keyboards">Keyboards</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success border-white my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="jumbotron jumbotron mb-0">
+        <a class="anchor" id="home"></a>
+        <div class="container-fluid">
+            <h1 class="headerK">Mykeyboards</h1>
+            <p class="lead offset-md-2 text-white subtext">Welcome to our page, hope you enjoy your stay!</p>
+            <button type="button" class="infoButton" data-toggle="tooltip" data-placement="right"
+                    title="Video">
+                <i data-toggle="modal" data-target="#mijnModal" class="fas fa-camera-retro fa-2x"></i>
+            </button>
+        </div>
+    </div>
+    <div class="row m-0">
+        <a class="anchorCF" id="contactForm"></a>
+        <div class="col-md-7 p-5 featured">
+            <h3 class="text-center text-white mb-4">Get in touch with us</h3>
+            <form>
+                <div class="form-row">
+                    <div class="col-md-4 offset-md-2 mb-3 mb-md-0">
+                        <label for="name" class="sr-only">name</label>
+                        <input type="text" class="form-control p-md-3" id="name" placeholder="Enter Your Name">
+                    </div>
+                    <div class="col-md-4 offset-md-0 mb-3 mb-md-0">
+                        <label for="email" class="sr-only">email</label>
+                        <input type="text" id="email" class="form-control p-md-3" placeholder="Enter Your Email">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-md-8 offset-md-2 mt-md-3 ">
+                        <label for="message" class="sr-only">
+                            Your message:
+                        </label>
+                        <textarea type="text" id="message" class="form-control" placeholder="Additional Message"
+                                  cols="170"
+                                  rows="6"></textarea>
+                    </div>
+                </div>
+                <div class="d-inline-block offset-md-2 mt-2">
+                    <button class="btn facebookLinkC" href=""><i class="fab fa-facebook-square fa-3x"></i></button>
+                    <button class="btn googleplusLinkC" href=""><i class="fab fa-google-plus-square fa-3x"></i></button>
+                    <button class="btn twitterLinkC" href=""><i class="fab fa-twitter-square fa-3x"></i></button>
+                    <button class="btn linkedinLinkC" href=""><i class="fab fa-linkedin fa-3x"></i></button>
+                </div>
+                <button class="btn btnContact text-uppercase" type="submit">Submit
+                </button>
+            </form>
+            <button type="button" class="infoButtonC" data-toggle="tooltip" data-placement="left"
+                    title="More info">
+                <i data-toggle="modal" data-target="#mymodalContact" class="fas fa-info-circle fa-2x"></i>
+            </button>
+        </div>
+        <div class="col-md-5 p-0 googleMap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d142028.18906187115!2d4.4322247223043!3d51.03447878564587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sgoogle%20maps!5e0!3m2!1sen!2sbe!4v1585926586972!5m2!1sen!2sbe"
+                    width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+        </div>
+    </div>
+    <div class="row p-5 m-0 footer">
+        <div class="col-md-3">
+            <div class="row pb-3">
+                <div class="col-md ">
+                    <h4 class="text-white">Mykeyboards</h4>
+                    <p class="leadFooter text-muted">switch up your setup</p>
+                </div>
+            </div>
+            <div class="row pb-3">
+                <div class="col-md">
+                    <h4 class="footerHeader">About us</h4>
+                    <p class="smallText text-white">We want to help people step into the world of custom keyboards.</p>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-md">
+                    <h5 class="footerHeader">Contact us</h5>
+                    <ul class="fa-ul ml-4 mb-0">
+                        <li class="list-unstyled text-white mb-2"><span class="fa-li"><i
+                                class="fas fa-phone-volume"></i>
+                        </span>
+                            <p class="smallText">+32-475-5551-17</p>
+                        </li>
+                        <li class="list-unstyled text-white mb-2"><span class="fa-li"><i
+                                class="fas fa-envelope"></i></i>
+                        </span><a class="mail" href="">r0799920@student.thomasmore.be</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <h4 class="footerHeader">Information</h4>
+            <a class="linkHref" href=""><h6 class="linkText">About Us</h6></a>
+            <a class="linkHref" href=""><h6 class="linkText">More Info</h6></a>
+        </div>
+        <div class="col-md-3">
+            <h4 class="footerHeader">Links</h4>
+            <a class="linkHref" href=""><h6 class="linkText">Services</h6></a>
+            <a class="linkHref" href=""><h6 class="linkText">Support</h6></a>
+            <a class="linkHref" href=""><h6 class="linkText">Terms & Condition</h6></a>
+            <a class="linkHref" href=""><h6 class="linkText">Privacy policy</h6></a>
+        </div>
+        <div class="col-md-3 my-4">
+            <h6 class="text-white mb-md-4">Recieve our newsletter</h6>
+            <form class="col-md-9 p-0">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-success" type="button"><i
+                                class="fas fa-envelope mail2"></i></button>
+                    </div>
+                    <input type="text" class="form-control emailForm" placeholder="Enter your Email" aria-label=""
+                           aria-describedby="basic-addon1">
+                </div>
+                <button type="submit" class="btn pr-4 pl-4 btnSub">Subscribe</button>
+            </form>
+        </div>
+        <hr class="mt-5">
+        <div class="mx-auto">
+            <a class="facebookLink" href=""><i class="fab fa-facebook-square fa-3x"></i></a>
+            <a class="googleplusLink" href=""><i class="fab fa-google-plus-square fa-3x"></i></a>
+            <a class="twitterLink" href=""><i class="fab fa-twitter-square fa-3x"></i></a>
+            <a class="linkedinLink" href=""><i class="fab fa-linkedin fa-3x"></i></a>
+            <p class="copyright mb-0">2020 © company.Ltd. All Right</p>
+            <p class="copyright">reserved</p>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="mijnModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <iframe width="100%" height="538" src="https://www.youtube.com/embed/xLCXH1KAG-Y" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="mymodalContact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <iframe width="100%" height="538" src="https://www.youtube.com/embed/uStvYeB0iOU" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
+</html>
